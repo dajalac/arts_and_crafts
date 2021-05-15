@@ -37,8 +37,23 @@ html{
       height: 0.2rem;
       background-color: #fff;
       box-shadow: 0 0.1rem 0.2rem rgb(0,0,0,.2);
+  }
 
-
+  .change .line {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .change .line-1 {
+    transform: rotate(45deg) translate(0.3rem, 0.8rem);
+  }
+  
+  .change .line-2 {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .change .line-3 {
+    transform: rotate(-45deg) translate(0.3rem, -0.8rem);
   }
 
 
