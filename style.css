@@ -718,12 +718,12 @@ margin-top: 4rem;;
     }
   
     .sidebar {
-      width: 100%;
+      width: 80%;
       right: -100%;
     }
   
     .change .hamburger-menu {
-      right: 38rem;
+      right: 32rem;
     }
   
     .service {
