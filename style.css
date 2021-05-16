@@ -390,6 +390,7 @@ html{
   margin-bottom: 5rem;
   display: flex;
   box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
+ 
 }
 
 .contact-left {
@@ -526,6 +527,7 @@ html{
  
   /**** media queries *********/
 
+
   @media (max-width: 1500px) {
     .about-us-img-wrapper {
       grid-row: 3 / -1;
@@ -537,7 +539,7 @@ html{
   
     .contact-wrapper {
       width: 80%;
-      height: 65rem;
+      height: 60rem;
     }
   
     .footer-content {
@@ -610,12 +612,6 @@ html{
       width: 18rem;
       height: 4rem;
       font-size: 1.5rem;
-    }
-  
-    .services {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
   
     .contact-left {
